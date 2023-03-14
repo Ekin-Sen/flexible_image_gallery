@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    width: 100vh;
+    height: 300px;
+    max-width: 700px;
+}
+
+.card {
+    flex: 1;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    object-fit: cover;
+    filter: grayscale(1);
+}
+
