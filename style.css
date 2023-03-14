@@ -17,3 +17,10 @@
     filter: grayscale(1);
 }
 
+.card:hover {
+    flex: 2;
+}
+
+.card:hover img {
+    filter: none;
+}
